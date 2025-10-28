@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Ewulu Chukwudalu Felix - Portfolio</title>
+        <meta name="description" content="Portfolio of Ewulu Chukwudalu Felix - Data Scientist, Data Analyst, Web Designer and Energy Modeler.">
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+
+    <body>
+        <header class="Star">
+            <div class="Domain">
+                <h1>Ewulu Chukwudalu Felix</h1>
+                <p class="tagline">Data Scientist, Data Analyst, Web Designer and Energy Modeler|Exploring Technology with Purpose</p>
+                <a href="#projects" class="cta">See My Work</a>
+            </div>
+        </header>
+        
+        <main class="Domain">
+            <section id="About" class="card">
+                <h2>About Me</h2>
+                <div class="About-Grid">
+                    <img src="Felix image.jpg" alt="Ewulu Chukwudalu Felix" class="Felix"/>
+                    <p>I'm a Pure and Applied Mathematics Student. I'm good in data analysis and data science but I have a career interest in Energy Modelling and Web Designing. I'm passionate about data, software, and creating meaningful digital solutions that improve efficiency and insight.</p>
+                </div>
+            </section>
+
+            <section id="Projects" class="card">
+                <h2>Projects</h2>
+                <div class="Projects-Grid">
+                    <article class="Project">
+                        <img src="abacha image.jpg" alt="Power Plant Dashboard"/>
+                        <h3>Power Plant KPI Dashboard</h3>
+                        <p>A data driven dashboard built with Excel to monitor key power generation metrics</p>
+                    </article>
+                </div>
+            </section>
+            
+            <section id="Skills" class="card">
+                <h2>Skills</h2>
+                <p class="chips">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Python</span>
+                    <span>Data Analysis</span>
+                </p>
+            </section>
+
+            <section id="Contact" class="card">
+                <h2>Contact Me</h2>
+                <p>Email: <a href="mailto:cd.ewulu@gmail.com">cd.ewulu@gmail.com</a></p>
+                <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                    <label>
+                        <span>Name</span>
+                        <input type="text" name="name" required/>
+                    </label>
+                    <label>
+                        <span>Message</span>
+                        <textarea name="message" rows="4" required></textarea>
+                    </label>
+                    <button type="submit">Send Message</button>
+                </form>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="Domain">
+                <p>© <span id="year"></span> Ewulu Chukwudalu Felix — <a href="resume.pdf" target="_blank">Resume</a></p>
+            </div>
+        </footer>
+        
+        <script>
+           document.getElementById('year').textContent = new Date().getFullYear();
+        </script>
+    </body>
+</html>
